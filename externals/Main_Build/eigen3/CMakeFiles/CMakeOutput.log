@@ -1,0 +1,1379 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Qt/Tools/mingw1120_64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/3.24.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Qt/Tools/mingw1120_64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_236cc/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_236cc.dir\build.make CMakeFiles/cmTC_236cc.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_236cc.dir/CMakeCCompilerABI.c.obj
+C:\Qt\Tools\mingw1120_64\bin\gcc.exe   -v -o CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_236cc.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Bianc\AppData\Local\Temp\ccoLqWGW.s
+GNU C17 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 91c4f3c4bd8e22d803fb4b1665a580b8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj C:\Users\Bianc\AppData\Local\Temp\ccoLqWGW.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_236cc.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_236cc.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_236cc.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_236cc.dir/objects.a @CMakeFiles\cmTC_236cc.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_236cc.dir/objects.a -Wl,--no-whole-archive -o cmTC_236cc.exe -Wl,--out-implib,libcmTC_236cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236cc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_236cc.'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\ccO4aMad.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_236cc.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_236cc.dir/objects.a --no-whole-archive --out-implib libcmTC_236cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236cc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_236cc.'
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_236cc/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_236cc.dir\build.make CMakeFiles/cmTC_236cc.dir/build]
+  ignore line: [mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_236cc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\gcc.exe   -v -o CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_236cc.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Bianc\AppData\Local\Temp\ccoLqWGW.s]
+  ignore line: [GNU C17 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 91c4f3c4bd8e22d803fb4b1665a580b8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj C:\Users\Bianc\AppData\Local\Temp\ccoLqWGW.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_236cc.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_236cc.exe]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_236cc.dir\link.txt --verbose=1]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_236cc.dir/objects.a]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_236cc.dir/objects.a @CMakeFiles\cmTC_236cc.dir\objects1.rsp]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_236cc.dir/objects.a -Wl --no-whole-archive -o cmTC_236cc.exe -Wl --out-implib libcmTC_236cc.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_236cc.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_236cc.']
+  link line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\ccO4aMad.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_236cc.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_236cc.dir/objects.a --no-whole-archive --out-implib libcmTC_236cc.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\ccO4aMad.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_236cc.exe] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_236cc.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_236cc.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Qt/Tools/mingw1120_64/lib/gcc;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;C:/Qt/Tools/mingw1120_64/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_2cc09/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2cc09.dir\build.make CMakeFiles/cmTC_2cc09.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cc09.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe   -v -o CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_2cc09.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Bianc\AppData\Local\Temp\cc3rFts1.s
+GNU C++17 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++17 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d7afaace9697386afb994a04753f738f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Bianc\AppData\Local\Temp\cc3rFts1.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_2cc09.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2cc09.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_2cc09.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_2cc09.dir/objects.a @CMakeFiles\cmTC_2cc09.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_2cc09.dir/objects.a -Wl,--no-whole-archive -o cmTC_2cc09.exe -Wl,--out-implib,libcmTC_2cc09.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2cc09.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_2cc09.'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc545ZNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_2cc09.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_2cc09.dir/objects.a --no-whole-archive --out-implib libcmTC_2cc09.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2cc09.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_2cc09.'
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_2cc09/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2cc09.dir\build.make CMakeFiles/cmTC_2cc09.dir/build]
+  ignore line: [mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2cc09.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\g++.exe   -v -o CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_2cc09.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Bianc\AppData\Local\Temp\cc3rFts1.s]
+  ignore line: [GNU C++17 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d7afaace9697386afb994a04753f738f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Bianc\AppData\Local\Temp\cc3rFts1.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_2cc09.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_2cc09.exe]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2cc09.dir\link.txt --verbose=1]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_2cc09.dir/objects.a]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_2cc09.dir/objects.a @CMakeFiles\cmTC_2cc09.dir\objects1.rsp]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_2cc09.dir/objects.a -Wl --no-whole-archive -o cmTC_2cc09.exe -Wl --out-implib libcmTC_2cc09.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2cc09.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_2cc09.']
+  link line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc545ZNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_2cc09.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_2cc09.dir/objects.a --no-whole-archive --out-implib libcmTC_2cc09.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc545ZNe.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_2cc09.exe] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_2cc09.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_2cc09.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Qt/Tools/mingw1120_64/lib/gcc;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;C:/Qt/Tools/mingw1120_64/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_94c50/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_94c50.dir\build.make CMakeFiles/cmTC_94c50.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94c50.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DEIGEN_COMPILER_SUPPORT_CPP11  -std=c++11 -o CMakeFiles\cmTC_94c50.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_94c50.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_94c50.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_94c50.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_94c50.dir/objects.a @CMakeFiles\cmTC_94c50.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_94c50.dir/objects.a -Wl,--no-whole-archive -o cmTC_94c50.exe -Wl,--out-implib,libcmTC_94c50.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_94c50.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_18766/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_18766.dir\build.make CMakeFiles/cmTC_18766.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18766.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_std=cpp03  -std=c++03 -o CMakeFiles\cmTC_18766.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_18766.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_18766.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_18766.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_18766.dir/objects.a @CMakeFiles\cmTC_18766.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -Wl,--whole-archive CMakeFiles\cmTC_18766.dir/objects.a -Wl,--no-whole-archive -o cmTC_18766.exe -Wl,--out-implib,libcmTC_18766.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_18766.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_dc3cb/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dc3cb.dir\build.make CMakeFiles/cmTC_dc3cb.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc3cb.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -Dstandard_math_library_linked_to_automatically  -std=c++03  -o CMakeFiles\cmTC_dc3cb.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_dc3cb.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_dc3cb.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_dc3cb.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_dc3cb.dir/objects.a @CMakeFiles\cmTC_dc3cb.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03  -Wl,--whole-archive CMakeFiles\cmTC_dc3cb.dir/objects.a -Wl,--no-whole-archive -o cmTC_dc3cb.exe -Wl,--out-implib,libcmTC_dc3cb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dc3cb.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_1a1e6/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1a1e6.dir\build.make CMakeFiles/cmTC_1a1e6.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a1e6.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_WERROR  -std=c++03    -Werror -o CMakeFiles\cmTC_1a1e6.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_1a1e6.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1a1e6.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1a1e6.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_1a1e6.dir/objects.a @CMakeFiles\cmTC_1a1e6.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03  -Wl,--whole-archive CMakeFiles\cmTC_1a1e6.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a1e6.exe -Wl,--out-implib,libcmTC_1a1e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1a1e6.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_f46f7/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f46f7.dir\build.make CMakeFiles/cmTC_f46f7.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f46f7.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror   -pedantic -o CMakeFiles\cmTC_f46f7.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_f46f7.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f46f7.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f46f7.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_f46f7.dir/objects.a @CMakeFiles\cmTC_f46f7.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -Werror -Wl,--whole-archive CMakeFiles\cmTC_f46f7.dir/objects.a -Wl,--no-whole-archive -o cmTC_f46f7.exe -Wl,--out-implib,libcmTC_f46f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f46f7.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_70400/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_70400.dir\build.make CMakeFiles/cmTC_70400.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70400.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror   -Wall -o CMakeFiles\cmTC_70400.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_70400.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_70400.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_70400.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_70400.dir/objects.a @CMakeFiles\cmTC_70400.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Werror -Wl,--whole-archive CMakeFiles\cmTC_70400.dir/objects.a -Wl,--no-whole-archive -o cmTC_70400.exe -Wl,--out-implib,libcmTC_70400.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_70400.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_49773/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_49773.dir\build.make CMakeFiles/cmTC_49773.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49773.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror   -Wextra -o CMakeFiles\cmTC_49773.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_49773.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_49773.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_49773.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_49773.dir/objects.a @CMakeFiles\cmTC_49773.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Werror -Wl,--whole-archive CMakeFiles\cmTC_49773.dir/objects.a -Wl,--no-whole-archive -o cmTC_49773.exe -Wl,--out-implib,libcmTC_49773.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_49773.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_30a0f/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_30a0f.dir\build.make CMakeFiles/cmTC_30a0f.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30a0f.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror   -Wundef -o CMakeFiles\cmTC_30a0f.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_30a0f.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_30a0f.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_30a0f.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_30a0f.dir/objects.a @CMakeFiles\cmTC_30a0f.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Werror -Wl,--whole-archive CMakeFiles\cmTC_30a0f.dir/objects.a -Wl,--no-whole-archive -o cmTC_30a0f.exe -Wl,--out-implib,libcmTC_30a0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_30a0f.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_197bb/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_197bb.dir\build.make CMakeFiles/cmTC_197bb.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_197bb.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror   -Wcast-align -o CMakeFiles\cmTC_197bb.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_197bb.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_197bb.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_197bb.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_197bb.dir/objects.a @CMakeFiles\cmTC_197bb.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -Wl,--whole-archive CMakeFiles\cmTC_197bb.dir/objects.a -Wl,--no-whole-archive -o cmTC_197bb.exe -Wl,--out-implib,libcmTC_197bb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_197bb.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_540b0/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_540b0.dir\build.make CMakeFiles/cmTC_540b0.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_540b0.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror   -Wchar-subscripts -o CMakeFiles\cmTC_540b0.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_540b0.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_540b0.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_540b0.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_540b0.dir/objects.a @CMakeFiles\cmTC_540b0.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -Wl,--whole-archive CMakeFiles\cmTC_540b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_540b0.exe -Wl,--out-implib,libcmTC_540b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_540b0.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_89139/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_89139.dir\build.make CMakeFiles/cmTC_89139.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89139.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror   -Wnon-virtual-dtor -o CMakeFiles\cmTC_89139.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_89139.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_89139.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_89139.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_89139.dir/objects.a @CMakeFiles\cmTC_89139.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -Wl,--whole-archive CMakeFiles\cmTC_89139.dir/objects.a -Wl,--no-whole-archive -o cmTC_89139.exe -Wl,--out-implib,libcmTC_89139.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_89139.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_a1426/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1426.dir\build.make CMakeFiles/cmTC_a1426.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1426.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror   -Wunused-local-typedefs -o CMakeFiles\cmTC_a1426.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_a1426.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a1426.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_a1426.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_a1426.dir/objects.a @CMakeFiles\cmTC_a1426.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -Wl,--whole-archive CMakeFiles\cmTC_a1426.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1426.exe -Wl,--out-implib,libcmTC_a1426.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a1426.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_d0dc4/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d0dc4.dir\build.make CMakeFiles/cmTC_d0dc4.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0dc4.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror   -Wpointer-arith -o CMakeFiles\cmTC_d0dc4.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_d0dc4.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d0dc4.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d0dc4.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_d0dc4.dir/objects.a @CMakeFiles\cmTC_d0dc4.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -Wl,--whole-archive CMakeFiles\cmTC_d0dc4.dir/objects.a -Wl,--no-whole-archive -o cmTC_d0dc4.exe -Wl,--out-implib,libcmTC_d0dc4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d0dc4.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_47de7/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_47de7.dir\build.make CMakeFiles/cmTC_47de7.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47de7.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror   -Wwrite-strings -o CMakeFiles\cmTC_47de7.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_47de7.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_47de7.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_47de7.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_47de7.dir/objects.a @CMakeFiles\cmTC_47de7.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -Wl,--whole-archive CMakeFiles\cmTC_47de7.dir/objects.a -Wl,--no-whole-archive -o cmTC_47de7.exe -Wl,--out-implib,libcmTC_47de7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_47de7.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_8a14b/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8a14b.dir\build.make CMakeFiles/cmTC_8a14b.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a14b.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror   -Wformat-security -o CMakeFiles\cmTC_8a14b.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_8a14b.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8a14b.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_8a14b.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_8a14b.dir/objects.a @CMakeFiles\cmTC_8a14b.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -Wl,--whole-archive CMakeFiles\cmTC_8a14b.dir/objects.a -Wl,--no-whole-archive -o cmTC_8a14b.exe -Wl,--out-implib,libcmTC_8a14b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8a14b.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_d5903/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d5903.dir\build.make CMakeFiles/cmTC_d5903.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5903.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wlogical-op -o CMakeFiles\cmTC_d5903.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_d5903.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d5903.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d5903.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_d5903.dir/objects.a @CMakeFiles\cmTC_d5903.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -Wl,--whole-archive CMakeFiles\cmTC_d5903.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5903.exe -Wl,--out-implib,libcmTC_d5903.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d5903.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_a8cd2/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a8cd2.dir\build.make CMakeFiles/cmTC_a8cd2.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8cd2.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wenumconversion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror   -Wenum-conversion -o CMakeFiles\cmTC_a8cd2.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_a8cd2.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a8cd2.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_a8cd2.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_a8cd2.dir/objects.a @CMakeFiles\cmTC_a8cd2.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Werror -Wl,--whole-archive CMakeFiles\cmTC_a8cd2.dir/objects.a -Wl,--no-whole-archive -o cmTC_a8cd2.exe -Wl,--out-implib,libcmTC_a8cd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a8cd2.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_4e97d/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4e97d.dir\build.make CMakeFiles/cmTC_4e97d.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e97d.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wdouble-promotion -o CMakeFiles\cmTC_4e97d.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_4e97d.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4e97d.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4e97d.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_4e97d.dir/objects.a @CMakeFiles\cmTC_4e97d.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror -Wl,--whole-archive CMakeFiles\cmTC_4e97d.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e97d.exe -Wl,--out-implib,libcmTC_4e97d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4e97d.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_cee66/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cee66.dir\build.make CMakeFiles/cmTC_cee66.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cee66.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wshadow  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror   -Wshadow -o CMakeFiles\cmTC_cee66.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_cee66.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_cee66.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_cee66.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_cee66.dir/objects.a @CMakeFiles\cmTC_cee66.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Werror -Wl,--whole-archive CMakeFiles\cmTC_cee66.dir/objects.a -Wl,--no-whole-archive -o cmTC_cee66.exe -Wl,--out-implib,libcmTC_cee66.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cee66.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_e9e83/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e9e83.dir\build.make CMakeFiles/cmTC_e9e83.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9e83.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Werror   -Wno-psabi -o CMakeFiles\cmTC_e9e83.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_e9e83.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e9e83.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_e9e83.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_e9e83.dir/objects.a @CMakeFiles\cmTC_e9e83.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Werror -Wl,--whole-archive CMakeFiles\cmTC_e9e83.dir/objects.a -Wl,--no-whole-archive -o cmTC_e9e83.exe -Wl,--out-implib,libcmTC_e9e83.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e9e83.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_80a52/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_80a52.dir\build.make CMakeFiles/cmTC_80a52.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80a52.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Werror   -Wno-variadic-macros -o CMakeFiles\cmTC_80a52.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_80a52.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_80a52.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_80a52.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_80a52.dir/objects.a @CMakeFiles\cmTC_80a52.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Werror -Wl,--whole-archive CMakeFiles\cmTC_80a52.dir/objects.a -Wl,--no-whole-archive -o cmTC_80a52.exe -Wl,--out-implib,libcmTC_80a52.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_80a52.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_862ac/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_862ac.dir\build.make CMakeFiles/cmTC_862ac.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_862ac.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror   -Wno-long-long -o CMakeFiles\cmTC_862ac.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_862ac.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_862ac.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_862ac.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_862ac.dir/objects.a @CMakeFiles\cmTC_862ac.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -Wl,--whole-archive CMakeFiles\cmTC_862ac.dir/objects.a -Wl,--no-whole-archive -o cmTC_862ac.exe -Wl,--out-implib,libcmTC_862ac.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_862ac.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_175cc/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_175cc.dir\build.make CMakeFiles/cmTC_175cc.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_175cc.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror   -fno-check-new -o CMakeFiles\cmTC_175cc.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_175cc.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_175cc.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_175cc.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_175cc.dir/objects.a @CMakeFiles\cmTC_175cc.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -Wl,--whole-archive CMakeFiles\cmTC_175cc.dir/objects.a -Wl,--no-whole-archive -o cmTC_175cc.exe -Wl,--out-implib,libcmTC_175cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_175cc.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_6d242/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6d242.dir\build.make CMakeFiles/cmTC_6d242.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d242.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror   -fno-common -o CMakeFiles\cmTC_6d242.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_6d242.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6d242.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_6d242.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_6d242.dir/objects.a @CMakeFiles\cmTC_6d242.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -Wl,--whole-archive CMakeFiles\cmTC_6d242.dir/objects.a -Wl,--no-whole-archive -o cmTC_6d242.exe -Wl,--out-implib,libcmTC_6d242.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6d242.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_0fd0c/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0fd0c.dir\build.make CMakeFiles/cmTC_0fd0c.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fd0c.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror   -fstrict-aliasing -o CMakeFiles\cmTC_0fd0c.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_0fd0c.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_0fd0c.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_0fd0c.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_0fd0c.dir/objects.a @CMakeFiles\cmTC_0fd0c.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -Wl,--whole-archive CMakeFiles\cmTC_0fd0c.dir/objects.a -Wl,--no-whole-archive -o cmTC_0fd0c.exe -Wl,--out-implib,libcmTC_0fd0c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0fd0c.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_5503f/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5503f.dir\build.make CMakeFiles/cmTC_5503f.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5503f.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -ansi -o CMakeFiles\cmTC_5503f.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_5503f.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5503f.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_5503f.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_5503f.dir/objects.a @CMakeFiles\cmTC_5503f.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -Wl,--whole-archive CMakeFiles\cmTC_5503f.dir/objects.a -Wl,--no-whole-archive -o cmTC_5503f.exe -Wl,--out-implib,libcmTC_5503f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5503f.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_bf1cb/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf1cb.dir\build.make CMakeFiles/cmTC_bf1cb.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf1cb.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi    -fopenmp -o CMakeFiles\cmTC_bf1cb.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+Linking CXX executable cmTC_bf1cb.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_bf1cb.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_bf1cb.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_bf1cb.dir/objects.a @CMakeFiles\cmTC_bf1cb.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi  -Wl,--whole-archive CMakeFiles\cmTC_bf1cb.dir/objects.a -Wl,--no-whole-archive -o cmTC_bf1cb.exe -Wl,--out-implib,libcmTC_bf1cb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bf1cb.dir\linklibs.rsp
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Looking for a Fortran compiler passed with the following output:
+-- The Fortran compiler identification is GNU 11.2.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: C:/Qt/Tools/mingw1120_64/bin/gfortran.exe - skipped
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/blas/CMakeFiles/CheckFortran
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: C:/Qt/Tools/mingw1120_64/bin/gfortran.exe 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: C:/Qt/Tools/mingw1120_64/bin/gfortran.exe -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=C:/Qt/Tools/mingw1120_64/bin/gfortran.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'a-'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=C:\Users\Bianc\AppData\Local\Temp\cc4fqeex.f90 -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT CMakeFortranCompilerId.F -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mtune=core2 -march=nocona -version -fintrinsic-modules-path C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude -o C:\Users\Bianc\AppData\Local\Temp\ccOwsnuU.s
+GNU Fortran (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU Fortran2008 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'a-'
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o C:\Users\Bianc\AppData\Local\Temp\ccaXPzfm.o C:\Users\Bianc\AppData\Local\Temp\ccOwsnuU.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+Reading specs from C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'a-'
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'a.'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\ccmcgxvM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. C:\Users\Bianc\AppData\Local\Temp\ccaXPzfm.o -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'a.'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+
+The Fortran compiler identification is GNU, found in "C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/3.24.2/CompilerIdFortran/a.exe"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_b74f5/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b74f5.dir\build.make CMakeFiles/cmTC_b74f5.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_b74f5.dir/CMakeFortranCompilerABI.F90.obj
+C:\Qt\Tools\mingw1120_64\bin\gfortran.exe   -v -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -o CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gfortran.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/f951.exe C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -cpp=C:\Users\Bianc\AppData\Local\Temp\cczhlvoH.f90 -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles\cmTC_b74f5.dir\ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=core2 -march=nocona -version -fintrinsic-modules-path C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude -o C:\Users\Bianc\AppData\Local\Temp\cc8TLxwe.s
+GNU Fortran (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU Fortran2008 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\'
+ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj C:\Users\Bianc\AppData\Local\Temp\cc8TLxwe.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.'
+Linking Fortran executable cmTC_b74f5.exe
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b74f5.dir\link.txt --verbose=1
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b74f5.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_b74f5.dir/objects.a @CMakeFiles\cmTC_b74f5.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\gfortran.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a -Wl,--no-whole-archive -o cmTC_b74f5.exe -Wl,--out-implib,libcmTC_b74f5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Driving: C:\Qt\Tools\mingw1120_64\bin\gfortran.exe -v -Wl,--whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a -Wl,--no-whole-archive -o cmTC_b74f5.exe -Wl,--out-implib,libcmTC_b74f5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gfortran.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (x86_64-posix-seh-rev3, Built by MinGW-W64 project) 
+Reading specs from C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b74f5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b74f5-'
+COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b74f5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b74f5.'
+ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc32TJ2Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_b74f5.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a --no-whole-archive --out-implib libcmTC_b74f5.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b74f5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b74f5.'
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/finclude]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/finclude;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_b74f5/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b74f5.dir\build.make CMakeFiles/cmTC_b74f5.dir/build]
+  ignore line: [mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_b74f5.dir/CMakeFortranCompilerABI.F90.obj]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\gfortran.exe   -v -c C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -o CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gfortran.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/f951.exe C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -cpp=C:\Users\Bianc\AppData\Local\Temp\cczhlvoH.f90 -quiet -v -iprefix C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Qt\Tools\CMake_64\share\cmake-3.24\Modules\CMakeFortranCompilerABI.F90 -quiet -dumpdir CMakeFiles\cmTC_b74f5.dir\ -dumpbase CMakeFortranCompilerABI.F90.F90 -dumpbase-ext .F90 -mtune=core2 -march=nocona -version -fintrinsic-modules-path C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude -o C:\Users\Bianc\AppData\Local\Temp\cc8TLxwe.s]
+  ignore line: [GNU Fortran (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Qt/Tools/mingw1120_64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/finclude]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\']
+  ignore line: [ C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj C:\Users\Bianc\AppData\Local\Temp\cc8TLxwe.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.obj' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b74f5.dir\CMakeFortranCompilerABI.F90.']
+  ignore line: [Linking Fortran executable cmTC_b74f5.exe]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b74f5.dir\link.txt --verbose=1]
+  ignore line: [C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_b74f5.dir/objects.a]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\cmTC_b74f5.dir/objects.a @CMakeFiles\cmTC_b74f5.dir\objects1.rsp]
+  ignore line: [C:\Qt\Tools\mingw1120_64\bin\gfortran.exe  -v -Wl --whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a -Wl --no-whole-archive -o cmTC_b74f5.exe -Wl --out-implib libcmTC_b74f5.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Driving: C:\Qt\Tools\mingw1120_64\bin\gfortran.exe -v -Wl --whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a -Wl --no-whole-archive -o cmTC_b74f5.exe -Wl --out-implib libcmTC_b74f5.dll.a -Wl --major-image-version 0 --minor-image-version 0 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Tools\mingw1120_64\bin\gfortran.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-11.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-posix-seh-rev3, Built by MinGW-W64 project' --with-bugurl=https://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -fno-ident -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' CPPFLAGS=' -I/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/include -I/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/include' LDFLAGS='-pipe -fno-ident -L/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/opt/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-zlib-static/lib -L/d/a/mingw-builds/mingw-builds/buildroot/prerequisites/x86_64-w64-mingw32-static/lib ' LD_FOR_TARGET=/d/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64/bin/ld.exe --with-boot-ldflags=' -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (x86_64-posix-seh-rev3  Built by MinGW-W64 project) ]
+  ignore line: [Reading specs from C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b74f5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b74f5-']
+  ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b74f5.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b74f5.']
+  link line: [ C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -plugin C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc32TJ2Y.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64 -m i386pep -Bdynamic -o cmTC_b74f5.exe C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_b74f5.dir/objects.a --no-whole-archive --out-implib libcmTC_b74f5.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/Qt/Tools/mingw1120_64/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Bianc\AppData\Local\Temp\cc32TJ2Y.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [--sysroot=D:/a/mingw-builds/mingw-builds/buildroot/x86_64-1120-posix-seh-rt_v9-rev3/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_b74f5.exe] ==> ignore
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_b74f5.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_b74f5.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc] ==> [C:/Qt/Tools/mingw1120_64/lib/gcc]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Tools/mingw1120_64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Qt/Tools/mingw1120_64/lib]
+  implicit libs: [gfortran;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;quadmath;m;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib/crt2.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Qt/Tools/mingw1120_64/lib/gcc;C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/lib;C:/Qt/Tools/mingw1120_64/lib]
+  implicit fwks: []
+
+

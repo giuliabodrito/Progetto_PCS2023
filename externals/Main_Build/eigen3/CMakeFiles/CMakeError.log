@@ -1,0 +1,102 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_6c1db/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c1db.dir\build.make CMakeFiles/cmTC_6c1db.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c1db.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles\cmTC_6c1db.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-Wshorten-64-to-32'
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_6c1db.dir\build.make:77: CMakeFiles/cmTC_6c1db.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_6c1db/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_2b0e3/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2b0e3.dir\build.make CMakeFiles/cmTC_2b0e3.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b0e3.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles\cmTC_2b0e3.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_2b0e3.dir\build.make:77: CMakeFiles/cmTC_2b0e3.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_2b0e3/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_e64c7/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e64c7.dir\build.make CMakeFiles/cmTC_e64c7.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e64c7.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles\cmTC_e64c7.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-wd981'
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_e64c7.dir\build.make:77: CMakeFiles/cmTC_e64c7.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_e64c7/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_b6e00/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b6e00.dir\build.make CMakeFiles/cmTC_b6e00.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6e00.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles\cmTC_b6e00.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-wd2304'
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_b6e00.dir\build.make:77: CMakeFiles/cmTC_b6e00.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_b6e00/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_ba24e/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ba24e.dir\build.make CMakeFiles/cmTC_ba24e.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba24e.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles\cmTC_ba24e.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_ba24e.dir\build.make:77: CMakeFiles/cmTC_ba24e.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_ba24e/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe -f Makefile cmTC_8e143/fast && mingw32-make.exe[3]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+C:/Qt/Tools/mingw1120_64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8e143.dir\build.make CMakeFiles/cmTC_8e143.dir/build
+mingw32-make.exe[4]: Entering directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e143.dir/src.cxx.obj
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles\cmTC_8e143.dir\src.cxx.obj -c C:\Users\Bianc\Desktop\progetto_PCS\externals\Main_Build\eigen3\CMakeFiles\CMakeTmp\src.cxx
+g++.exe: error: unrecognized command-line option '-Qunused-arguments'
+mingw32-make.exe[4]: *** [CMakeFiles\cmTC_8e143.dir\build.make:77: CMakeFiles/cmTC_8e143.dir/src.cxx.obj] Error 1
+mingw32-make.exe[4]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+mingw32-make.exe[3]: *** [Makefile:126: cmTC_8e143/fast] Error 2
+mingw32-make.exe[3]: Leaving directory 'C:/Users/Bianc/Desktop/progetto_PCS/externals/Main_Build/eigen3/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

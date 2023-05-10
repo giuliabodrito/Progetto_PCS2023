@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/delaunay_test[1]_tests.cmake")
+  include("C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/delaunay_test[1]_tests.cmake")
+else()
+  add_test(delaunay_test_NOT_BUILT delaunay_test_NOT_BUILT)
+endif()

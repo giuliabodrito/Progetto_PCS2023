@@ -1,0 +1,8 @@
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/CMakeFiles/delaunay_test.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/CMakeFiles/delaunay_program.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/CMakeFiles/edit_cache.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/Bianc/Desktop/progetto_PCS/Projects/Debug/test/CMakeFiles/rebuild_cache.dir
